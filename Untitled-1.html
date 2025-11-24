@@ -2,7 +2,6 @@
 <html lang="en-US">
   <head>
     
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,7 +40,7 @@
       <h1><a href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/">Inventory-of-intangible-heritage</a></h1>
       
 
-      <p>&lt;!doctype html&gt;</p>
+      <p>&lt;!doctype html&gt;</p>999999999999999999999\\\\\\\\
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8" />
@@ -52,10 +51,68 @@
   a[href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"] {
   display: none !important;
 }
+/* تصغير صندوق الأسئلة وجعله في وسط الشاشة */
+.wizard {
+    max-width: 500px !important;  /* عرض أصغر */
+    margin: 0 auto !important;    /* وسط الشاشة */
+    padding: 20px !important;
+    border-radius: 12px;
+}
+
+/* على الجوال: اجعله أصغر */
+@media (max-width: 600px) {
+    .wizard {
+        max-width: 90% !important;
+        padding: 15px !important;
+    }
+
+    .question-title {
+        font-size: 16px !important;
+    }
+
+    textarea, input, select {
+        font-size: 15px !important;
+    }
+}
+
+/* جعل الصفحة تتمدد على كل الشاشات */
+body, html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* تصغير الهوامش عند الشاشات الصغيرة */
+@media (max-width: 600px) {
+    .container, .pdf-page, table {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    table th, table td {
+        font-size: 14px !important;
+        padding: 6px !important;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    textarea, input, select {
+        font-size: 14px !important;
+    }
+}
+
+
 
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
     body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;background:var(--bg);padding:18px;margin:0}
-    .container{max-width:950px;margin:0 auto}
+    .container {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+
     /* Results table (kept visually like original) */
     table{width:100%;border-collapse:collapse;background:var(--card);margin-bottom:18px}
     th,td{border:1px solid var(--border);padding:10px;vertical-align:top;font-size:15px}
