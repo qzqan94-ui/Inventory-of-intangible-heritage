@@ -37,6 +37,7 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       
+      <h1><a href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/">Inventory-of-intangible-heritage</a></h1>
       
 
       <p>&lt;!doctype html&gt;</p>
@@ -47,7 +48,10 @@
 <title>استمارة حصر عنصر التراث - تفاعلية</title>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="" />
 <style>
-  
+  a[href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"] {
+  display: none !important;
+}
+
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
     body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;background:var(--bg);padding:18px;margin:0}
     .container{max-width:950px;margin:0 auto}
