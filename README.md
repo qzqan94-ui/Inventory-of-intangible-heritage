@@ -5,12 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>استمارة حصر عنصر التراث - تفاعلية</title>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-<style>
-/* إخفاء أي رابط داخل h1 يشير إلى هذا الرابط بالضبط */
 /* إخفاء أي رابط داخل h1 يشير إلى هذا الرابط بالضبط */
 h1 a[href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"] { 
   display: none !important;
 }
+
 
 
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
