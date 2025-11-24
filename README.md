@@ -6,7 +6,7 @@
 <title>استمارة حصر عنصر التراث - تفاعلية</title>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 /* إخفاء أي رابط داخل h1 يشير إلى هذا الرابط بالضبط */
-h1 a[href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"] { 
+a[href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"] {
   display: none !important;
 }
 
