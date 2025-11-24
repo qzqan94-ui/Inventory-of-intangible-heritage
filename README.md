@@ -1,10 +1,51 @@
-<!doctype html>
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Inventory-of-intangible-heritage</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Inventory-of-intangible-heritage" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/" />
+<meta property="og:url" content="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/" />
+<meta property="og:site_name" content="Inventory-of-intangible-heritage" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Inventory-of-intangible-heritage" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"Inventory-of-intangible-heritage","name":"Inventory-of-intangible-heritage","url":"https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/Inventory-of-intangible-heritage/assets/css/style.css?v=adf6ab52688232fc57e25ffc8a9b5aafc74ec50f">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/Inventory-of-intangible-heritage/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      
+
+      <p>&lt;!doctype html&gt;</p>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>استمارة حصر عنصر التراث - تفاعلية</title>
-<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="" />
 <style>
   
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
@@ -61,7 +102,7 @@
 
     <div class="controls">
       <div class="left">
-        <button id="prevBtn" class="btn-ghost" type="button" disabled>السابق</button>
+        <button id="prevBtn" class="btn-ghost" type="button" disabled="">السابق</button>
       </div>
       <div class="right">
         <button id="nextBtn" type="button">التالي</button>
@@ -451,4 +492,12 @@ html2pdf()
 setTimeout(()=>{ const firstInput=document.getElementById(questions[0].id); if(firstInput) firstInput.focus(); },300);
 </script>
 </body>
+</html>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
 </html>
