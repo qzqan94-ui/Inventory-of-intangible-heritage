@@ -1,5 +1,4 @@
 
-<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8" />
@@ -9,7 +8,7 @@
 <style>
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
     body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;background:var(--bg);padding:18px;margin:0}
-    .container{max-width:1100px;margin:0 auto}
+    .container{max-width:950px;margin:0 auto}
     /* Results table (kept visually like original) */
     table{width:100%;border-collapse:collapse;background:var(--card);margin-bottom:18px}
     th,td{border:1px solid var(--border);padding:10px;vertical-align:top;font-size:15px}
