@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>استمارة حصر عنصر اللحاف (المصنف) - جازان</title>
+  <style>
+    :root{
+      --bg:#f6f7fb;
+      --card:#ffffff;
+      --accent:#0b5fff;
+      --muted:#6b7280;
+      --border:#e6e9ef;
+      font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;
+    }
+    html,body{height:100%;margin:0;background:var(--bg);color:#111;}
+    .container{max-width:1000px;margin:28px auto;padding:20px;}
+    .card{background:var(--card);border-radius:10px;box-shadow:0 6px 18px rgba(12,20,40,0.06);padding:20px;border:1px solid var(--border)}
+    h1{margin:0 0 8px;font-size:20px}
+    h2{margin:18px 0 8px;font-size:16px;color:var(--accent)}
+    label{display:block;margin:8px 0 4px;font-weight:600}
+    .muted{color:var(--muted);font-weight:400;font-size:13px}
+    input[type="text"], input[type="tel"], textarea, select {
+      width:100%;box-sizing:border-box;padding:10px;border:1px solid var(--border);border-radius:6px;background:#fff;
+      font-size:14px;outline:none;
+    }
+    textarea{min-height:90px;resize:vertical}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+    .full{grid-column:1/-1}
+    .actions{display:flex;gap:10px;justify-content:flex-start;margin-top:16px;flex-wrap:wrap}
+    button{
+      background:var(--accent);color:#fff;border:0;padding:10px 14px;border-radius:8px;cursor:pointer;font-weight:600;
+      box-shadow:0 6px 14px rgba(11,95,255,0.12)
+    }
+    button.secondary{background:#fff;color:var(--accent);border:1px solid var(--border);box-shadow:none}
+    .section{margin-top:14px;padding-top:12px;border-top:1px dashed var(--border)}
+    .note{background:#fff8e6;color:#7a5a00;padding:10px;border-radius:6px;border:1px solid #fde3a8;font-size:13px}
+    /* responsive */
+    @media (max-width:720px){ .grid{grid-template-columns:1fr} }
+    /* printable adjustments */
+    @media print{
+      body{background:white}
+      .container{box-shadow:none;margin:0}
+      button, .actions {display:none}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card" id="formCard">
+      <h1>استمارة حصر عنصر التراث الثقافي غير المادي (اللحاف - المصنّف)</h1>
+      <p class="muted">نسخة تفاعلية مُحوّلة من المستند المرفوع. يمكنك تعديل الحقول ثم تنزيل نسخة HTML أو طباعتها.</p>
+
+      <!-- Section 1 -->
+      <h2>1 ـ تحديد عنصر التراث الثقافي غير المادي</h2>
+      <div class="grid">
+        <div>
+          <label>1.1 اسم العنصر كما تستخدمه الجماعة (الاسم العامي)</label>
+          <input type="text" id="item_name" value="اللحاف - المِصنَف">
+        </div>
+        <div>
+          <label>1.2 عنوان مختصر ومفيد للعنصر</label>
+          <input type="text" id="short_title" value="المصنف الجازاني">
+        </div>
+        <div>
+          <label>1.3 الجماعة (أو الجماعات) المعنية</label>
+          <input type="text" id="community" value="المجتمع الجازاني">
+        </div>
+        <div>
+          <label>1.4 الموقع الجغرافي ونطاق الممارسة</label>
+          <input type="text" id="location" value="منطقة جازان">
+        </div>
+
+        <div class="full">
+          <label>1.5 وصف مختصر لعنصر التراث الثقافي غير المادي</label>
+          <textarea id="description">المصنف: هو عبارة عن إزار تقليدي يتم لبسه من قبل الرجال بشكل عام في كل المنطقة، إضافة إلى استخدام النساء له في القطاع الجبلي.
+
+يعتبر المصنف من أبرز وأهم الأزياء الجازانية منذ القدم حيث أنه لم يكن مجرد زي محلي، بل كان يدخل ضمن اشتراطات الزواج في القدم (الفشرة) ... (مقتبس من المستند الأصلي)</textarea>
+        </div>
+
+        <div>
+          <label>1.6 مجالات التراث التي يندرج تحتها العنصر</label>
+          <select id="domains" multiple>
+            <option>التعابير الشفهية</option>
+            <option selected>الفنون الادائية</option>
+            <option>الممارسات الاجتماعية والطقوس</option>
+            <option>المعارف المتعلقة بالطبيعة</option>
+            <option>المهارات المرتبطة بالفنون الحرفية</option>
+          </select>
+          <p class="muted">اضغط لتحديد/الغاء تحديد. (متعدد)</p>
+        </div>
+
+        <div>
+          <label>1.7 الوظائف والمعاني الاجتماعية والثقافية</label>
+          <textarea id="functions">إرث ثقافي يعكس ثقافة الأزياء القديمة والتي لازالت تستخدم إلى الآن داخل المجتمع الجازاني.</textarea>
+        </div>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="section">
+        <h2>2 ـ خصائص العنصر</h2>
+        <div class="grid">
+          <div>
+            <label>2.1 الممارسون/المؤدون (الاسم/العمر/الجنس/التواصل)</label>
+            <textarea id="practitioners">الاسم: أحمد إبراهيم العتودي.  
+العمر: 50 سنة.  
+الجنس: ذكر.  
+عنوان التواصل: 0505408941</textarea>
+          </div>
+
+          <div>
+            <label>2.2 مشاركون آخرون (متاجر، منظّمون...)</label>
+            <textarea id="others">المتاجر الخاصة ببيع الملابس التقليدية.</textarea>
+          </div>
+
+          <div>
+            <label>2.3 اللغة/اللغات المستخدمة</label>
+            <input type="text" id="languages" value="اللغة العربية">
+          </div>
+
+          <div>
+            <label>2.4 العناصر المادية المرتبطة</label>
+            <textarea id="material_items">متاجر بيع الملابس.
+الخناجر (الجنابي).
+القمصان (الشميز والسميج).
+العصبة / العمامة.</textarea>
+          </div>
+
+          <div class="full">
+            <label>2.5 عناصر غير مادية مرتبطة</label>
+            <textarea id="immaterial">العادات والتقاليد الخاصة بأزياء الإنسان الجازاني. المناسبات والأعراس والفنون الراقصة والغنائية.</textarea>
+          </div>
+
+          <div>
+            <label>2.6 الممارسات العرفية إن وجدت</label>
+            <textarea id="customs"></textarea>
+          </div>
+
+          <div>
+            <label>2.7 طرائق النقل الحالية للمعارف والمهارات</label>
+            <input type="text" id="transfer" value="النقل المباشر داخل المجتمع">
+          </div>
+
+          <div>
+            <label>2.8 المنظمات المعنية</label>
+            <textarea id="organizations">جمعية التراث بجازان.
+مؤسسة لوندرا للأزياء.
+مشروع حصر الأزياء التقليدية (نورة غبري).</textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="section">
+        <h2>3 ـ حالة العنصر: قدرته على البقاء والاستدامة</h2>
+        <div class="grid">
+          <div>
+            <label>3.1 جهود الصون السابقة والحالية</label>
+            <textarea id="safeguarding">النقل (التعليم الرسمي والغير رسمي).
+التوثيق والبحث.
+الحفظ والحماية.
+الترويج والتعزيز.</textarea>
+          </div>
+
+          <div>
+            <label>3.2 الجهة/الجهات المختصة</label>
+            <input type="text" id="responsible" value="هيئة الأزياء. جمعية التراث بجازان.">
+          </div>
+
+          <div>
+            <label>3.3 حالة العنصر الآن</label>
+            <select id="current_status">
+              <option selected>مازال محافظا عليه</option>
+              <option>مهدد بالاندثار</option>
+              <option>أصبح مندثرا</option>
+            </select>
+          </div>
+
+          <div>
+            <label>3.4-3.6 تهديدات واستدامة الموارد</label>
+            <textarea id="threats">لا يوجد</textarea>
+          </div>
+
+          <div class="full">
+            <label>3.7 قابلية استدامة العناصر المرتبطة</label>
+            <input type="text" id="related_sustain" value="قابلة للاستدامة">
+          </div>
+
+          <div class="full">
+            <label>3.8 تدابير صون محلية أو أخرى</label>
+            <textarea id="local_measures">مشروع خاص بحصر الأزياء التقليدية في منطقة جازان (نورة غبري).</textarea>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="section">
+        <h2>4 ـ القيود والأذونات على البيانات</h2>
+        <div class="grid">
+          <div>
+            <label>4.1 موافقة الجماعة على توفير المعلومات</label>
+            <input type="text" id="consent" value="تمت الموافقة">
+          </div>
+          <div>
+            <label>4.2 قيود على انتفاع البيانات</label>
+            <input type="text" id="data_restrictions" value="لا توجد">
+          </div>
+          <div class="full">
+            <label>4.3 الأشخاص المخبرون (الرواة/المزودون)</label>
+            <textarea id="informants">الاسم: أحمد إبراهيم العتودي.
+المكانة: ممارس.
+الانتماء: من أبناء منطقة جازان.</textarea>
+          </div>
+          <div class="full">
+            <label>4.4 تواريخ جمع المعلومات وأمكنتها</label>
+            <input type="text" id="collection_dates" value="19/2/2024م إلى 24/2/2024م">
+          </div>
+        </div>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="section">
+        <h2>5 ـ مراجع</h2>
+        <div class="grid">
+          <div class="full">
+            <label>5.1 الأدبيات</label>
+            <textarea id="refs">............... </textarea>
+          </div>
+          <div>
+            <label>5.2 مواد سمعية وبصرية</label>
+            <input type="text" id="av_materials" value="أفلام ومقاطع على اليوتيوب والمنصات الأخرى">
+          </div>
+          <div>
+            <label>5.3 مواد وثائقية وأدوات في المتاحف</label>
+            <input type="text" id="archive_materials" value="—">
+          </div>
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="downloadBtn">تنزيل HTML</button>
+        <button id="printBtn" class="secondary">طباعة</button>
+        <button id="resetBtn" class="secondary">إعادة تحميل القيم الافتراضية</button>
+        <div style="flex:1"></div>
+        <div class="note">للمحررين: الحقول قابلة للتعديل. اضغط "تنزيل HTML" لحفظ نسخة مستقلة.</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // احتياطات بسيطة للتحميل والطباعة وإعادة القيم الافتراضية (من النموذج الأصلي)
+    const defaultData = {
+      item_name: "اللحاف - المِصنَف",
+      short_title: "المصنف الجازاني",
+      community: "المجتمع الجازاني",
+      location: "منطقة جازان",
+      description: document.getElementById('description').value,
+      domains: Array.from(document.getElementById('domains').options).map(o=>o.selected?o.text:null).filter(Boolean),
+      functions: document.getElementById('functions').value,
+      practitioners: document.getElementById('practitioners').value,
+      others: document.getElementById('others').value,
+      languages: document.getElementById('languages').value,
+      material_items: document.getElementById('material_items').value,
+      immaterial: document.getElementById('immaterial').value,
+      transfer: document.getElementById('transfer').value,
+      organizations: document.getElementById('organizations').value,
+      safeguarding: document.getElementById('safeguarding').value,
+      responsible: document.getElementById('responsible').value,
+      current_status: document.getElementById('current_status').value,
+      threats: document.getElementById('threats').value,
+      related_sustain: document.getElementById('related_sustain').value,
+      local_measures: document.getElementById('local_measures').value,
+      consent: document.getElementById('consent').value,
+      data_restrictions: document.getElementById('data_restrictions').value,
+      informants: document.getElementById('informants').value,
+      collection_dates: document.getElementById('collection_dates').value,
+      refs: document.getElementById('refs').value,
+      av_materials: document.getElementById('av_materials').value,
+      archive_materials: document.getElementById('archive_materials').value
+    };
+
+    // Download current page as standalone HTML file
+    document.getElementById('downloadBtn').addEventListener('click', () => {
+      // gather current HTML of the form card and embed in a minimal standalone page
+      const card = document.getElementById('formCard');
+      // clone to avoid modifications
+      const clone = card.cloneNode(true);
+      // Remove download/print/reset buttons from clone for a cleaner saved file
+      const btns = clone.querySelectorAll('button, .actions');
+      btns.forEach(b => b.remove());
+      // build new HTML
+      const standalone = `<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>نسخة استمارة - ${document.getElementById('item_name').value}</title>
+<style>
+  body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;direction:rtl;padding:20px;background:#f6f7fb}
+  .card{background:#fff;padding:20px;border-radius:8px;border:1px solid #e6e9ef;max-width:980px;margin:0 auto}
+  h1,h2{color:#0b5fff}
+  label{font-weight:700;margin-top:8px;display:block}
+  textarea,input{width:100%;padding:8px;border:1px solid #e6e9ef;border-radius:6px}
+</style>
+</head>
+<body>
+<div class="card">
+${clone.innerHTML}
+</div>
+</body>
+</html>`;
+      const blob = new Blob([standalone], {type: 'text/html;charset=utf-8'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `استمارة_عنصر_اللحاف.html`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    });
+
+    // print
+    document.getElementById('printBtn').addEventListener('click', () => {
+      window.print();
+    });
+
+    // reset to defaults
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      if(!confirm('إعادة تحميل القيم الافتراضية من المستند الأصلي؟')) return;
+      for(const k in defaultData){
+        const el = document.getElementById(k);
+        if(!el) continue;
+        if(el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') el.value = defaultData[k];
+        if(el.tagName === 'SELECT'){
+          // try to set value
+          if(Array.from(el.options).some(o=>o.value === defaultData[k])) el.value = defaultData[k];
+        }
+      }
+      // reselect multi domains
+      const domainsSelect = document.getElementById('domains');
+      Array.from(domainsSelect.options).forEach(o => o.selected = defaultData.domains.includes(o.text));
+      alert('تمت إعادة القيم الافتراضية.');
+    });
+
+    // small autosave to localStorage (optional)
+    const formElements = document.querySelectorAll('#formCard input, #formCard textarea, #formCard select');
+    // load saved
+    const saved = localStorage.getItem('sahaf_form_v1');
+    if(saved){
+      try{
+        const data = JSON.parse(saved);
+        for(const k in data){
+          const el = document.getElementById(k);
+          if(!el) continue;
+          if(el.tagName === 'SELECT' && el.multiple){
+            Array.from(el.options).forEach(o => o.selected = (data[k] || []).includes(o.text));
+          } else el.value = data[k];
+        }
+      }catch(e){}
+    }
+    // save on change
+    formElements.forEach(el => el.addEventListener('change', () => {
+      const data = {};
+      formElements.forEach(e => {
+        if(e.tagName === 'SELECT' && e.multiple){
+          data[e.id] = Array.from(e.options).filter(o=>o.selected).map(o=>o.text);
+        } else data[e.id] = e.value;
+      });
+      try{ localStorage.setItem('sahaf_form_v1', JSON.stringify(data)); }catch(e){}
+    }));
+
+  </script>
+</body>
+</html>
+
