@@ -103,6 +103,23 @@ body, html {
     }
 }
 
+/* إصلاح ضغط الجداول في صفحة النتائج */
+#resultsWrap table {
+    width: 100% !important;         /* تمديد الجدول كامل */
+    table-layout: auto !important;  /* السماح للخانات بأخذ حجمها الطبيعي */
+}
+
+#resultsWrap td, 
+#resultsWrap th {
+    padding: 10px !important;       /* توزيع داخلي أفضل */
+    white-space: normal !important; /* يجعل النص يتمدد بدل أن ينضغط */
+    text-align: right;              /* بما أنك تعمل RTL */
+}
+
+/* فك ضغط الأعمدة وتوزيعها */
+#resultsWrap tr > * {
+    width: auto !important;
+}
 
 
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
