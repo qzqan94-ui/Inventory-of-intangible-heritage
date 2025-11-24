@@ -7,9 +7,11 @@
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <style>
 /* إخفاء أي رابط داخل h1 يشير إلى هذا الرابط بالضبط */
-h1 a[href="https://qzqan94-ui.github.io/jeme-vehicle/"] {
+/* إخفاء أي رابط داخل h1 يشير إلى هذا الرابط بالضبط */
+h1 a[href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"] { 
   display: none !important;
 }
+
 
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
     body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;background:var(--bg);padding:18px;margin:0}
