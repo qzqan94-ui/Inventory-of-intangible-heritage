@@ -37,7 +37,7 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       
-      <h1><a href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/">Inventory-of-intangible-heritage</a></h1>
+      <a href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/">Inventory-of-intangible-heritage</a>
       
 
       <p>&lt;!doctype html&gt;</p>999999999999999999999\\\\\\\\
@@ -168,7 +168,7 @@ body, html {
 <body>
 <div class="container">
   <div class="topbar">
-    <h2>استمارة حصر عنصر التراث </h2>
+    <h2>استمارة حصر عناصر التراث غير المادي </h2>
     <div class="small">أجب عن كل سؤال ثم اضغط التالي — يمكنك العودة بالزر السابق</div>
   </div>
 
