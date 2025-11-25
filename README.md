@@ -37,10 +37,7 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       
-      <a href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/">Inventory-of-intangible-heritage</a>
-      
 
-      <p>&lt;!doctype html&gt;</p>999999999999999999999\\\\\\\\
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8" />
