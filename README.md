@@ -165,8 +165,10 @@ body, html {
 <body>
 <div class="container">
   <div class="topbar">
-    <h2>استمارة حصر عناصر التراث غير المادي </h2>
-    <div class="small">أجب عن كل سؤال ثم اضغط التالي — يمكنك العودة بالزر السابق</div>
+   <h2 style="text-align:center; width:100%; margin:20px auto; display:block;">
+    استمارة حصر عناصر التراث غير المادي
+</h2>
+
   </div>
 
   <!-- WIZARD -->
