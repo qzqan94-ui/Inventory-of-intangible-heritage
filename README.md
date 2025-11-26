@@ -118,6 +118,12 @@ body, html {
     width: auto !important;
 }
 
+#resultsWrap table {
+    margin: 0;          /* إزالة الهوامش */
+    float: none;        /* إلغاء أي تأثير float */
+    width: 100%;        /* جعل الجدول يملأ كامل العرض */
+    table-layout: auto; /* أو fixed إذا أردت توزيع الأعمدة بشكل متساوي */
+}
 
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
     body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;background:var(--bg);padding:18px;margin:0}
