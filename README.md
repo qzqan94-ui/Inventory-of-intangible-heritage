@@ -101,13 +101,9 @@ body, html {
 }
 
 /* إصلاح ضغط الجداول في صفحة النتائج */
-/* فك ضغط الأعمدة وتوزيعها وإضافة التوسيط */
 #resultsWrap table {
-    width: 100%;
-    max-width: 900px; /* نفس القيمة المضافة في التنسيق العام للـ table */
-    table-layout: auto;
-    margin: 0 auto 18px auto !important; /* توسيط الجدول في المنتصف */
-    float: none !important; 
+    width: 100% !important;         /* تمديد الجدول كامل */
+    table-layout: auto !important;  /* السماح للخانات بأخذ حجمها الطبيعي */
 }
 
 #resultsWrap td, 
@@ -122,11 +118,6 @@ body, html {
     width: auto !important;
 }
 
-#resultsWrap table {
-    margin: 0;          /* إزالة الهوامش */
-    width: 100%;        /* جعل الجدول يملأ كامل العرض */
-    table-layout: auto; /* أو fixed إذا أردت توزيع الأعمدة بشكل متساوي */
-}
 
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
     body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;background:var(--bg);padding:18px;margin:0}
@@ -137,19 +128,8 @@ body, html {
 }
 
     /* Results table (kept visually like original) */
-    /* Results table (kept visually like original) */
-table{
-    /* التنسيقات الأصلية */
-    width:100%;
-    border-collapse:collapse;
-    background:var(--card);
-    margin-bottom:18px;
-    
-    /* إضافة التوسيط */
-    max-width: 900px; /* أضف عرض أقصى لترك هامش */
-    margin-left: auto;
-    margin-right: auto;
-}    th,td{border:1px solid var(--border);padding:10px;vertical-align:top;font-size:15px}
+    table{width:100%;border-collapse:collapse;background:var(--card);margin-bottom:18px}
+    th,td{border:1px solid var(--border);padding:10px;vertical-align:top;font-size:15px}
     th.section-title{background:var(--accent);font-size:18px;text-align:right;font-weight:700;border:2px solid var(--border)}
     textarea,input[type=text],select{width:100%;border:0;font-size:15px;outline:none;resize:vertical;padding:6px}
 
@@ -219,7 +199,7 @@ table{
       <!-- We'll render the original tables here, populated from answers -->
 
       <table>
-       <tr>
+     <tr>
   <th class="section-title" colspan="0" style="
       border-top: 2px solid white;
       border-left: 2px solid white;
@@ -227,12 +207,22 @@ table{
       border-bottom: 2px solid black;
       background-color: white;
       padding: 10px;
+      position: relative;
+      text-align: center;
   ">
-    <h2 style="text-align:center; width:100%; margin:0;">
+
+    <!-- الصورة في اليمين -->
+    <img src="pp1.jpg" alt="Logo" 
+         style="width:120px; position:absolute; right:10px; top:50%; transform:translateY(-50%);">
+
+    <!-- العنوان في المنتصف -->
+    <h2 style="margin:0; text-align:center; width:100%;">
       استمارة حصر عناصر التراث غير المادي
     </h2>
+
   </th>
 </tr>
+
 
 
           <tr><th class="section-title" colspan="2">1 ـ تحديد عنصر التراث الثقافي غير المادي</th></tr>
