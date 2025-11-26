@@ -101,9 +101,13 @@ body, html {
 }
 
 /* إصلاح ضغط الجداول في صفحة النتائج */
+/* فك ضغط الأعمدة وتوزيعها وإضافة التوسيط */
 #resultsWrap table {
-    width: 100% !important;         /* تمديد الجدول كامل */
-    table-layout: auto !important;  /* السماح للخانات بأخذ حجمها الطبيعي */
+    width: 100%;
+    max-width: 900px; /* نفس القيمة المضافة في التنسيق العام للـ table */
+    table-layout: auto;
+    margin: 0 auto 18px auto !important; /* توسيط الجدول في المنتصف */
+    float: none !important; 
 }
 
 #resultsWrap td, 
@@ -120,7 +124,6 @@ body, html {
 
 #resultsWrap table {
     margin: 0;          /* إزالة الهوامش */
-    float: none;        /* إلغاء أي تأثير float */
     width: 100%;        /* جعل الجدول يملأ كامل العرض */
     table-layout: auto; /* أو fixed إذا أردت توزيع الأعمدة بشكل متساوي */
 }
@@ -146,7 +149,7 @@ table{
     max-width: 900px; /* أضف عرض أقصى لترك هامش */
     margin-left: auto;
     margin-right: auto;
-}th,td{border:1px solid var(--border);padding:10px;vertical-align:top;font-size:15px}
+}    th,td{border:1px solid var(--border);padding:10px;vertical-align:top;font-size:15px}
     th.section-title{background:var(--accent);font-size:18px;text-align:right;font-weight:700;border:2px solid var(--border)}
     textarea,input[type=text],select{width:100%;border:0;font-size:15px;outline:none;resize:vertical;padding:6px}
 
