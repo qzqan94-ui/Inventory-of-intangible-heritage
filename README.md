@@ -134,8 +134,19 @@ body, html {
 }
 
     /* Results table (kept visually like original) */
-    table{width:100%;border-collapse:collapse;background:var(--card);margin-bottom:18px}
-    th,td{border:1px solid var(--border);padding:10px;vertical-align:top;font-size:15px}
+    /* Results table (kept visually like original) */
+table{
+    /* التنسيقات الأصلية */
+    width:100%;
+    border-collapse:collapse;
+    background:var(--card);
+    margin-bottom:18px;
+    
+    /* إضافة التوسيط */
+    max-width: 900px; /* أضف عرض أقصى لترك هامش */
+    margin-left: auto;
+    margin-right: auto;
+}th,td{border:1px solid var(--border);padding:10px;vertical-align:top;font-size:15px}
     th.section-title{background:var(--accent);font-size:18px;text-align:right;font-weight:700;border:2px solid var(--border)}
     textarea,input[type=text],select{width:100%;border:0;font-size:15px;outline:none;resize:vertical;padding:6px}
 
