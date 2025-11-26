@@ -522,6 +522,22 @@ document.getElementById('downloadPdf').addEventListener('click', ()=>{
 
 // نسخ العنصر
 const clone = pdfContainer.cloneNode(true);
+// --- إضافة العنوان في أعلى ملف PDF ---
+const pdfTitle = document.createElement('h2');
+pdfTitle.textContent = "استمارة حصر عناصر التراث غير المادي";
+pdfTitle.style.textAlign = "center";
+pdfTitle.style.marginBottom = "20px";
+
+// ضعه في أول صفحة قبل المحتوى
+pdfPagesContainer.innerHTML = "";
+const firstPage = document.createElement('div');
+firstPage.className = "pdf-page";
+firstPage.appendChild(pdfTitle);
+
+// بعد العنوان ننسخ النتائج داخل الصفحة الأولى
+firstPage.appendChild(clone);
+pdfPagesContainer.appendChild(firstPage);
+
 clone.style.width = '210mm';
 clone.style.minHeight = '297mm';
 clone.style.boxSizing = 'border-box';
