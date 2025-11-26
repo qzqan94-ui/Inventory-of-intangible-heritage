@@ -1,7 +1,7 @@
 
-<!DOCTYPE html>
 <html lang="en-US">
   <head>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,7 +21,7 @@
 {"@context":"https://schema.org","@type":"WebSite","headline":"Inventory-of-intangible-heritage","name":"Inventory-of-intangible-heritage","url":"https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/Inventory-of-intangible-heritage/assets/css/style.css?v=dc059b0e1330eab0cc8e4278c9821bdba9e41cb3">
+    <link rel="stylesheet" href="/Inventory-of-intangible-heritage/assets/css/style.css?v=adf6ab52688232fc57e25ffc8a9b5aafc74ec50f">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -37,52 +37,7 @@
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
       
-      <h1><a href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/">Inventory-of-intangible-heritage</a></h1>
-      
 
-      
-<p>&lt;!DOCTYPE html&gt;</p>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Inventory-of-intangible-heritage</title>
-<meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Inventory-of-intangible-heritage" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/" />
-<meta property="og:url" content="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/" />
-<meta property="og:site_name" content="Inventory-of-intangible-heritage" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Inventory-of-intangible-heritage" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Inventory-of-intangible-heritage","name":"Inventory-of-intangible-heritage","url":"https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/Inventory-of-intangible-heritage/assets/css/style.css?v=adf6ab52688232fc57e25ffc8a9b5aafc74ec50f" />
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/Inventory-of-intangible-heritage/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      <h1><a href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/">Inventory-of-intangible-heritage</a></h1>
-      
-
-      <p>&lt;!doctype html&gt;</p>
 <html lang="ar" dir="rtl">
 <head>
 <meta charset="utf-8" />
@@ -93,10 +48,91 @@
   a[href="https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"] {
   display: none !important;
 }
+/* تصغير صندوق الأسئلة وجعله في وسط الشاشة */
+.wizard {
+    max-width: 500px !important;  /* عرض أصغر */
+    margin: 0 auto !important;    /* وسط الشاشة */
+    padding: 20px !important;
+    border-radius: 12px;
+}
+
+/* على الجوال: اجعله أصغر */
+@media (max-width: 600px) {
+    .wizard {
+        max-width: 90% !important;
+        padding: 15px !important;
+    }
+
+    .question-title {
+        font-size: 16px !important;
+    }
+
+    textarea, input, select {
+        font-size: 15px !important;
+    }
+}
+
+/* جعل الصفحة تتمدد على كل الشاشات */
+body, html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* تصغير الهوامش عند الشاشات الصغيرة */
+@media (max-width: 600px) {
+    .container, .pdf-page, table {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    table th, table td {
+        font-size: 14px !important;
+        padding: 6px !important;
+    }
+
+    h2 {
+        font-size: 18px !important;
+    }
+
+    textarea, input, select {
+        font-size: 14px !important;
+    }
+}
+
+/* إصلاح ضغط الجداول في صفحة النتائج */
+#resultsWrap table {
+    width: 100% !important;         /* تمديد الجدول كامل */
+    table-layout: auto !important;  /* السماح للخانات بأخذ حجمها الطبيعي */
+}
+
+#resultsWrap td, 
+#resultsWrap th {
+    padding: 10px !important;       /* توزيع داخلي أفضل */
+    white-space: normal !important; /* يجعل النص يتمدد بدل أن ينضغط */
+    text-align: right;              /* بما أنك تعمل RTL */
+}
+
+/* فك ضغط الأعمدة وتوزيعها */
+#resultsWrap tr > * {
+    width: auto !important;
+}
+
+#resultsWrap table {
+    margin: 0;          /* إزالة الهوامش */
+    float: none;        /* إلغاء أي تأثير float */
+    width: 100%;        /* جعل الجدول يملأ كامل العرض */
+    table-layout: auto; /* أو fixed إذا أردت توزيع الأعمدة بشكل متساوي */
+}
 
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
     body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;background:var(--bg);padding:18px;margin:0}
-    .container{max-width:950px;margin:0 auto}
+    .container {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+
     /* Results table (kept visually like original) */
     table{width:100%;border-collapse:collapse;background:var(--card);margin-bottom:18px}
     th,td{border:1px solid var(--border);padding:10px;vertical-align:top;font-size:15px}
@@ -135,8 +171,10 @@
 <body>
 <div class="container">
   <div class="topbar">
-    <h2>استمارة حصر عنصر التراث (اللحاف المصنف) — تفاعلي</h2>
-    <div class="small">أجب عن كل سؤال ثم اضغط التالي — يمكنك العودة بالزر السابق</div>
+   <h2 style="text-align:center; width:100%; margin:20px auto; display:block;">
+    استمارة حصر عناصر التراث غير المادي
+</h2>
+
   </div>
 
   <!-- WIZARD -->
@@ -167,6 +205,22 @@
       <!-- We'll render the original tables here, populated from answers -->
 
       <table>
+       <tr>
+  <th class="section-title" colspan="0" style="
+      border-top: 2px solid white;
+      border-left: 2px solid white;
+      border-right: 2px solid white;
+      border-bottom: 2px solid black;
+      background-color: white;
+      padding: 10px;
+  ">
+    <h2 style="text-align:center; width:100%; margin:0;">
+      استمارة حصر عناصر التراث غير المادي
+    </h2>
+  </th>
+</tr>
+
+
           <tr><th class="section-title" colspan="2">1 ـ تحديد عنصر التراث الثقافي غير المادي</th></tr>
 
           <tr><th>1.1 اسم العنصر كما تستخدمه الجماعة (الاسم العامي)</th>
@@ -538,14 +592,6 @@ html2pdf()
 setTimeout(()=>{ const firstInput=document.getElementById(questions[0].id); if(firstInput) firstInput.focus(); },300);
 </script>
 </body>
-</html>
-
-
-      
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
 </html>
 
 
