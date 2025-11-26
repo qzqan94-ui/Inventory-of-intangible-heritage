@@ -199,6 +199,22 @@ body, html {
       <!-- We'll render the original tables here, populated from answers -->
 
       <table>
+       <tr>
+  <th class="section-title" colspan="0" style="
+      border-top: 2px solid white;
+      border-left: 2px solid white;
+      border-right: 2px solid white;
+      border-bottom: 2px solid black;
+      background-color: white;
+      padding: 10px;
+  ">
+    <h2 style="text-align:center; width:100%; margin:0;">
+      استمارة حصر عناصر التراث غير المادي
+    </h2>
+  </th>
+</tr>
+
+
           <tr><th class="section-title" colspan="2">1 ـ تحديد عنصر التراث الثقافي غير المادي</th></tr>
 
           <tr><th>1.1 اسم العنصر كما تستخدمه الجماعة (الاسم العامي)</th>
@@ -522,22 +538,6 @@ document.getElementById('downloadPdf').addEventListener('click', ()=>{
 
 // نسخ العنصر
 const clone = pdfContainer.cloneNode(true);
-// --- إضافة العنوان في أعلى ملف PDF ---
-const pdfTitle = document.createElement('h2');
-pdfTitle.textContent = "استمارة حصر عناصر التراث غير المادي";
-pdfTitle.style.textAlign = "center";
-pdfTitle.style.marginBottom = "20px";
-
-// ضعه في أول صفحة قبل المحتوى
-pdfPagesContainer.innerHTML = "";
-const firstPage = document.createElement('div');
-firstPage.className = "pdf-page";
-firstPage.appendChild(pdfTitle);
-
-// بعد العنوان ننسخ النتائج داخل الصفحة الأولى
-firstPage.appendChild(clone);
-pdfPagesContainer.appendChild(firstPage);
-
 clone.style.width = '210mm';
 clone.style.minHeight = '297mm';
 clone.style.boxSizing = 'border-box';
