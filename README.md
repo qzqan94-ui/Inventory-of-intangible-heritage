@@ -164,12 +164,23 @@ body, html {
 </head>
 <body>
 <div class="container">
-  <div class="topbar">
-   <h2 style="text-align:center; width:100%; margin:20px auto; display:block;">
-    استمارة حصر عناصر التراث غير المادي
-</h2>
+  <div class="topbar" style="position: relative;">
 
-  </div>
+  <!-- الصورة على اليمين -->
+  <img src="pp1.jpg" alt="logo" 
+       style="width:120px; position:absolute; right:10px; top:50%; transform:translateY(-50%);">
+
+  <!-- العنوان يبقى في المنتصف -->
+  <h2 style="
+      text-align:center;
+      width:100%;
+      margin:20px auto;
+      display:block;
+  ">
+    استمارة حصر عناصر التراث غير المادي
+  </h2>
+
+</div>
 
   <!-- WIZARD -->
   <div id="wizard" class="wizard" aria-live="polite">
