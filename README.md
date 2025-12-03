@@ -160,13 +160,38 @@ body, html {
 
     /* responsive */
     @media (max-width:800px){.pdf-page{padding:12px}}
-    #resultsArea table {
-    width: 100% !important;    /* يجعل الجدول يأخذ العرض الكامل */
-    table-layout: auto !important; /* يمنع انضغاط الأعمدة */
-    border-collapse: collapse; /* ترتيب الحدود */
+    /* >>> إصلاح قاطع لتمديد الجداول داخل resultsArea */
+body .container #resultsWrap #resultsArea table,
+body .container #resultsWrap #resultsArea table th,
+body .container #resultsWrap #resultsArea table td {
+  width: 100% !important;        /* إجبار العرض الكامل */
+  float: none !important;        /* إلغاء أي float مفروض من الثيم */
+  margin: 0 auto !important;     /* توسيط + إزالة أي margin يمين/يسار فاسد */
+  table-layout: auto !important; /* السماح للخانات بأن تأخذ حجمها الطبيعي */
+  display: table !important;     /* إستعادة سلوك الجدول الطبيعي */
+  box-sizing: border-box !important;
 }
 
-    
+/* تأكد من أن الخلايا لا تضغط النص */
+body .container #resultsWrap #resultsArea table th,
+body .container #resultsWrap #resultsArea table td {
+  white-space: normal !important;
+  padding: 10px !important;
+  text-align: right !important; /* RTL */
+}
+
+/* إن وُجد أي selector يطبّق float على كل الجداول */
+body .container #resultsWrap #resultsArea table[style] {
+  /* هذا يغطي الحالات التي تضيف inline styles */
+  float: none !important;
+  margin: 0 auto !important;
+}
+
+/* إن استمر الثيم في استخدام قواعد أعلى أولوية (inline !important وغيرها) */
+body .container #resultsWrap #resultsArea > table {
+  width: 100% !important;
+}
+
 </style>
 </head>
 <body>
@@ -634,3 +659,4 @@ setTimeout(()=>{ const firstInput=document.getElementById(questions[0].id); if(f
     <script>anchors.add();</script>
   </body>
 </html>
+
