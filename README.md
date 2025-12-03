@@ -164,23 +164,25 @@ body, html {
 </head>
 <body>
 <div class="container">
-  <div class="topbar" style="position: relative;">
+  <div style="text-align:center; margin-bottom:20px;">
 
-  <!-- الصورة على اليمين -->
+  <!-- الشعار فوق العنوان -->
   <img src="pp1.jpg" alt="logo" 
-       style="width:120px; position:absolute; right:10px; top:50%; transform:translateY(-50%);">
-
-  <!-- العنوان يبقى في المنتصف -->
+       style="
+          width:150px; 
+          display:block;
+          margin:0 auto 10px;
+       ">
+  
+  <!-- العنوان في المنتصف -->
   <h2 style="
-      text-align:center;
-      width:100%;
-      margin:20px auto;
-      display:block;
+      margin:0;
   ">
     استمارة حصر عناصر التراث غير المادي
   </h2>
 
 </div>
+
 
   <!-- WIZARD -->
   <div id="wizard" class="wizard" aria-live="polite">
@@ -209,30 +211,39 @@ body, html {
     <div id="resultsArea">
       <!-- We'll render the original tables here, populated from answers -->
 
-      <table>
-     <tr>
-  <th class="section-title" colspan="0" style="
-      border-top: 2px solid white;
-      border-left: 2px solid white;
-      border-right: 2px solid white;
-      border-bottom: 2px solid black;
-      background-color: white;
-      padding: 10px;
-      position: relative;
-      text-align: center;
-  ">
+     <table>
+  <tr>
+    <th class="section-title" colspan="0" style="
+        border-top: 2px solid white;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-bottom: 2px solid black;
+        background-color: white;
+        padding: 10px;
+        position: relative;
+        text-align: center;
+        height: 150px; /* فقط لضمان مساحة مناسبة للشعار */
+    ">
 
-    <!-- الصورة في اليمين -->
-    <img src="pp1.jpg" alt="Logo" 
-         style="width:120px; position:absolute; right:10px; top:50%; transform:translateY(-50%);">
+      <!-- الشعار في المنتصف بالأعلى -->
+      <img src="pp1.jpg" alt="Logo" 
+           style="
+              width:120px; 
+              position:absolute; 
+              top:10px; 
+              left:50%; 
+              transform:translateX(-50%);
+           ">
 
-    <!-- العنوان في المنتصف -->
-    <h2 style="margin:0; text-align:center; width:100%;">
-      استمارة حصر عناصر التراث غير المادي
-    </h2>
+      <!-- العنوان في المنتصف -->
+      <h2 style="margin:0; text-align:center; width:100%; margin-top:80px;">
+        استمارة حصر عناصر التراث غير المادي
+      </h2>
 
-  </th>
-</tr>
+    </th>
+  </tr>
+
+
 
 
 
@@ -616,3 +627,4 @@ setTimeout(()=>{ const firstInput=document.getElementById(questions[0].id); if(f
     <script>anchors.add();</script>
   </body>
 </html>
+
