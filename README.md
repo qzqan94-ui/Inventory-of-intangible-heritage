@@ -160,18 +160,13 @@ body, html {
 
     /* responsive */
     @media (max-width:800px){.pdf-page{padding:12px}}
-    #result table {
-    width: 100% !important;
-    float: none !important;
-    margin: 0 auto !important;
-    table-layout: auto !important;
-    display: table !important;
+    #resultsArea table {
+    width: 100% !important;    /* يجعل الجدول يأخذ العرض الكامل */
+    table-layout: auto !important; /* يمنع انضغاط الأعمدة */
+    border-collapse: collapse; /* ترتيب الحدود */
 }
 
-#result {
-    text-align: center !important;
-}
-
+    
 </style>
 </head>
 <body>
@@ -639,4 +634,3 @@ setTimeout(()=>{ const firstInput=document.getElementById(questions[0].id); if(f
     <script>anchors.add();</script>
   </body>
 </html>
-
