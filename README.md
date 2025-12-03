@@ -160,6 +160,18 @@ body, html {
 
     /* responsive */
     @media (max-width:800px){.pdf-page{padding:12px}}
+    #result table {
+    width: 100% !important;
+    float: none !important;
+    margin: 0 auto !important;
+    table-layout: auto !important;
+    display: table !important;
+}
+
+#result {
+    text-align: center !important;
+}
+
 </style>
 </head>
 <body>
