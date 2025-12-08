@@ -17,8 +17,7 @@
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Inventory-of-intangible-heritage" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Inventory-of-intangible-heritage","name":"Inventory-of-intangible-heritage","url":"https://qzqan94-ui.github.io/Inventory-of-intangible-heritage/"}</script>
+<script type="application/ld+json"></script>
 <!-- End Jekyll SEO tag -->
 
     <link rel="stylesheet" href="/Inventory-of-intangible-heritage/assets/css/style.css?v=adf6ab52688232fc57e25ffc8a9b5aafc74ec50f">
@@ -191,6 +190,13 @@ body .container #resultsWrap #resultsArea table[style] {
 body .container #resultsWrap #resultsArea > table {
   width: 100% !important;
 }
+.small.example {
+  font-size: 13px;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
 
 </style>
 </head>
@@ -199,10 +205,10 @@ body .container #resultsWrap #resultsArea > table {
   <div style="text-align:center; margin-bottom:20px;">
 
   <!-- الشعار فوق العنوان -->
-  <img src="pp1.jpg" alt="logo" 
+  <img src="pp1.png" alt="logo" 
        style="
-          width:150px; 
-          display:block;
+          width:250px; 
+          
           margin:0 auto 10px;
        ">
   
@@ -210,7 +216,7 @@ body .container #resultsWrap #resultsArea > table {
   <h2 style="
       margin:0;
   ">
-    استمارة حصر عناصر التراث غير المادي
+    استمارة حصر عناصر التراث غير المادي التفاعليه 
   </h2>
 
 </div>
@@ -256,14 +262,13 @@ body .container #resultsWrap #resultsArea > table {
         text-align: center;
         height: 150px; /* فقط لضمان مساحة مناسبة للشعار */
     ">
-
       <!-- الشعار في المنتصف بالأعلى -->
-      <img src="pp1.jpg" alt="Logo" 
+      <img src="pp2.png" alt="Logo" 
            style="
-              width:120px; 
+              width:205px; 
               position:absolute; 
-              top:10px; 
-              left:50%; 
+              top:17px; 
+              left:87%; 
               transform:translateX(-50%);
            ">
 
@@ -281,103 +286,110 @@ body .container #resultsWrap #resultsArea > table {
 
           <tr><th class="section-title" colspan="2">1 ـ تحديد عنصر التراث الثقافي غير المادي</th></tr>
 
-          <tr><th>1.1 اسم العنصر كما تستخدمه الجماعة (الاسم العامي)</th>
+          <tr><th>1.1-	اسم العنصر كما تستخدمه الجماعة المعنية (اسم العنصر في اللغة العامية)</th>
             <tr></tr>
               <td id="r_1_1"></td></tr>
 
-          <tr><th>1.2 عنوان مختصر ومفيد للعنصر</th>  <tr></tr>
+          <tr><th>1.2-	عنوان مختصر ومفيد لعنصر التراث الثقافي غير المادي (يشير إلى مجال أو مجالات التراث الثقافي غير المادي الذي ينتمي إليه/إليها)</th>  <tr></tr>
 
               <td id="r_1_2"></td></tr>
 
           <tr><th>1.3 الجماعة (أو الجماعات) المعنية</th><tr></tr>
               <td id="r_1_3"></td></tr>
 
-          <tr><th>1.4 الموقع الجغرافي ونطاق الممارسة</th><tr></tr>
+          <tr><th>1.4-	الموقع الطبيعي لعنصر التراث الثقافي غير المادي، ونطاق ممارسته ووتيرتها2 (الموقع الجغرافي للعنصر)</th><tr></tr>
               <td id="r_1_4"></td></tr>
 
           <tr><th>1.5 وصف مختصر لعنصر التراث الثقافي غير المادي</th><tr></tr>
               <td id="r_1_5"></td></tr>
 
-          <tr><th>1.6 مجالات التراث التي يندرج تحتها العنصر</th><tr></tr>
+          <tr><th>1.6	في اي مجال او مجلات من التراث الثقافي غير المادي يندرج العنصر؟",
+</th><tr></tr>
               <td id="r_1_6"></td></tr>
 
-          <tr><th>1.7 الوظائف والمعاني الاجتماعية والثقافية</th><tr></tr>
+          <tr><th>1.7	ما هي الوظائف والمعاني الاجتماعية والثقافية التي يقدمها العنصر لجماعته؟</th><tr></tr>
               <td id="r_1_7"></td></tr>
       </table>
 
       <table>
         <tr><th class="section-title" colspan="2">2 ـ خصائص العنصر</th></tr>
 
-        <tr><th>2.1 الممارسون/المؤدون</th><tr></tr>
+        <tr><th>1.2-	الممارسون/المؤدون المعنيون بشكل مباشر بأداء عنصر التراث الثقافي غير المادي وممارسته (الاسم/العمر/الجنس/عنوان التواصل)</th><tr></tr>
             <td id="r_2_1"></td></tr>
 
-        <tr><th>2.2 مشاركون آخرون</th><tr></tr>
+        <tr><th>2.2-	مشاركون آخرون معنيون بالعنصر ولكن بطريقة لا ترتقي إلى ممارسته وأدائة وإنما يساهمون في إدامة ممارسته أو يسهلون عملية ممارسته ونقلها (مثل الذين يُحَضِّرون مكان أو مسرح الأداء أو الأزياء أو الذين يقومون بمهام التدريب أو الإشراف أو الرعاية)'</th><tr></tr>
             <td id="r_2_2"></td></tr>
 
-        <tr><th>2.3 اللغة/اللغات المستخدمة</th><tr></tr>
+        <tr><th>2.3-	اللغة/اللغات المستخدمة في أداء أو ممارسة العنصر</th><tr></tr>
             <td id="r_2_3"></td></tr>
 
-        <tr><th>2.4 العناصر المادية المرتبطة</th><tr></tr>
+        <tr><th>2.4-	العناصر المادية المرتبطة بممارسة العنصر ونقله نحو الأدوات/المعدات، الأزياء، الأماكن، والأدوات الطقوسية (إن وجدت)'</th><tr></tr>
             <td id="r_2_4"></td></tr>
 
-        <tr><th>2.5 عناصر غير مادية</th><tr></tr>
+        <tr><th>2.5-	عناصر غير مادية أخرى (إن وجدت) مرتبطة بممارسة العنصر المعني ونقله</th><tr></tr>
             <td id="r_2_5"></td></tr>
 
-        <tr><th>2.6 الممارسات العرفية</th><tr></tr>
+        <tr><th>2.6-	الممارسات العرفية (إن وجدت) التي تحكم الانتفاع بالعنصر أو أي جانب من جوانبه</th><tr></tr>
             <td id="r_2_6"></td></tr>
 
-        <tr><th>2.7 طرق النقل الحالية</th><tr></tr>
+        <tr><th>2.7	طرائق النقل إلى الأعضاء الآخرين في الجماعة او كيف يتم نقل المعارف والمهارات الخاصة بالعنصر في العصر الحالي؟</th><tr></tr>
             <td id="r_2_7"></td></tr>
 
-        <tr><th>2.8 المنظمات المعنية</th><tr></tr>
+        <tr><th>2.8	المنظمات المعنية (منظمات المجتمعات المحلية والمنظمات غير الحكومية أو غيرها، إن وجدت)'</th><tr></tr>
             <td id="r_2_8"></td></tr>
       </table>
 
       <table>
           <tr><th class="section-title" colspan="2">3 ـ حالة العنصر: قدرته على البقاء والاستدامة</th></tr>
-          <tr><th>3.1 جهود الصون السابقة والحالية</th><tr></tr>
+          <tr><th>'3-1 الجهود السابقة والحالية لصون العنصر : يرجى اختيار واحد أو اكثر من الاختيارات الآتيه لتحدسد إجراءات الصون التي تم اتخاذها سابقاَ ويتم اتخاذها حالياَمن قبل الجماعات أو الافراد المعنية بالعنصر</th><tr></tr>
               <td id="r_3_1"></td></tr>
 
-          <tr><th>3.2 الجهة/الجهات المختصة</th><tr></tr>
+          <tr><th>3.2 الجهة (الجهات) المختصة القائمة على عملية الصون</th><tr></tr>
               <td id="r_3_2"></td></tr>
 
-          <tr><th>3.3 حالة العنصر الآن</th><tr></tr>
+          <tr><th>3.3 حالة العنصر في الوقت الحالي</th><tr></tr>
               <td id="r_3_3"></td></tr>
 
-          <tr><th>3.4 - 3.6 التهديدات</th><tr></tr>
+          <tr><th>3.4 التهديدات (إن وجدت) التي تحدد بالأداء المتواصل للعنصر في إطارالجماعة/الجماعات المعنية</th><tr></tr>
               <td id="r_3_4"></td></tr>
 
-          <tr><th>3.7 قابلية استدامة العناصر المرتبطة</th><tr></tr>
+              <tr><th>3.5 التهديدات (إن وجدت) التي تحدق بانتقال العنصر في إطار الجماعة/الجماعات المعنية</th><tr></tr>
+              <td id="r_3_5"></td></tr>
+              
+              <tr><th>3.6 التهديدات التي تحدق باستدامة الانتفاع بالعناصر المادية والموارد (إن وجدت) المرتبطة بعنصر التراث الثقافي غير المادي.</th><tr></tr>
+              <td id="r_3_6"></td></tr>
+
+          <tr><th>3.7 قابلية استدامة عناصر التراث غير المادي الأخرى (إن وجت) المرتبطة بالعنصر</th><tr></tr>
               <td id="r_3_7"></td></tr>
 
-          <tr><th>3.8 تدابير الصون</th><tr></tr>
+          <tr><th>3.8 تدابير الصون المتخذة في المكان (إن وجدت) أو غيرها لمعالجة أي من هذه التهديدات، وتشجيع ممارسة العنصر ونقله في المستقبل </th><tr></tr>
               <td id="r_3_8"></td></tr>
       </table>
 
       <table>
           <tr><th class="section-title" colspan="2">4 ـ القيود والأذونات على البيانات</th></tr>
 
-          <tr><th>4.1 موافقة الجماعة على توفير المعلومات</th><tr></tr>
+          <tr><th>4.1 موافقة الجماعة/الجماعات المعنية على توفير المعلومات ومشاركتهم في جمعها</th><tr></tr>
               <td id="r_4_1"></td></tr>
 
-          <tr><th>4.2 قيود على انتفاع البيانات</th><tr></tr>
+          <tr><th>4.2 القيود (إن وجدت) المفروضة على مسالة الانتفاع بالبيانات واستعمالها</th><tr></tr>
               <td id="r_4_2"></td></tr>
 
-          <tr><th>4.3 الأشخاص المخبرون</th><tr></tr>
+          <tr><th>4.3 تواريخ جمع المعلومات وأمكنتها</th><tr></tr>
               <td id="r_4_3"></td></tr>
 
-          <tr><th>4.4 تواريخ جمع المعلومات</th><tr></tr>
+          <tr><th>4.4 الأشخاص المخبرون (الرواة/المزودون بالمعلومات) (أسماؤهم، ومكانتهم، وانتماؤهم)</th><tr></tr>
               <td id="r_4_4"></td></tr>
       </table>
 
       <table>
           <tr><th class="section-title" colspan="2">5 ـ المراجع</th></tr>
-          <tr><th>5.1 الأدبيات</th><tr></tr>
+          <tr><th>5.1 الأدبيات: كتب، مقالات... وغيرها</th><tr></tr>
               <td id="r_5_1"></td></tr>
-          <tr><th>5.2 مواد سمعية وبصرية</th><tr></tr>
+          <tr><th>5.2 المواد السمعية والبصرية، تسجيلات إلخ في المحفوظات والمتاحف والمجموعات الخاصة (إن وجدت)</th><tr></tr>
               <td id="r_5_2"></td></tr>
 
-          <tr><th>5.3 مواد وثائقية وأدوات في المتاحف</th><tr></tr>
+          <tr><th>5.3 مواد وثائقية، وأدوات في دور المحفوظات والمتاحف والمجموعات الخاصة (إن وجدت)</th><tr></tr>
               <td id="r_5_3"></td></tr>
       </table>
 
@@ -394,59 +406,82 @@ body .container #resultsWrap #resultsArea > table {
 <script>
 // Definition of fields/questions in order (one page = one question view)
 const questions = [
-  {id:'q_1_1',label:'1.1 اسم العنصر كما تستخدمه الجماعة (الاسم العامي)',type:'text',placeholder:''},
-  {id:'q_1_2',label:'1.2 عنوان مختصر ومفيد للعنصر',type:'text'},
-  {id:'q_1_3',label:'1.3 الجماعة (أو الجماعات) المعنية',type:'text'},
-  {id:'q_1_4',label:'1.4 الموقع الجغرافي ونطاق الممارسة',type:'text'},
-  {id:'q_1_5',label:'1.5 وصف مختصر لعنصر التراث الثقافي غير المادي',type:'textarea'},
-  {id:'q_1_6',label:'1.6 مجالات التراث التي يندرج تحتها العنصر (اكتب/اختر)',type:'textarea',placeholder:'مثال: الفنون الأدائية، التعابير الشفهية...'},
-  {id:'q_1_7',label:'1.7 الوظائف والمعاني الاجتماعية والثقافية',type:'textarea'},
-
-  {id:'q_2_1',label:'2.1 الممارسون/المؤدون (الاسم، العمر، الجنس، تواصل)',type:'textarea',value:
-`الاسم:
-العمر:
-الجنس:
-التواصل:`},
-  {id:'q_2_2',label:'2.2 مشاركون آخرون',type:'textarea',value:
-`الاسم:
-العمر:
-الجنس:
-التواصل:`},
-  {id:'q_2_3',label:'2.3 اللغة/اللغات المستخدمة',type:'text',value:'اللغة العربية'},
-  {id:'q_2_4',label:'2.4 العناصر المادية المرتبطة',type:'textarea'},
-  {id:'q_2_5',label:'2.5 عناصر غير مادية',type:'textarea'},
-  {id:'q_2_6',label:'2.6 الممارسات العرفية',type:'textarea'},
-  {id:'q_2_7',label:'2.7 طرق النقل الحالية',type:'text'},
-  {id:'q_2_8',label:'2.8 المنظمات المعنية',type:'textarea'},
-
-
-{
-  id:'q_3_1',
-  label:'3.1 جهود الصون السابقة والحالية',
-type:'textarea',value:
-  `النقل (التعليم الرسمي والغير رسمي).
-التوثيق والبحث.
-الحفظ والحماية.
-الترويج والتعزيز.`
+  {id:'q_1_1',label:'1.1-	اسم العنصر كما تستخدمه الجماعة المعنية (اسم العنصر في اللغة العامية)',type:'text',placeholder:'مثال: رقصة العرضة', example:'مثال:(اسم العنصر في اللغة العامية) '},
+  {id:'q_1_2',label:'1.2-	عنوان مختصر ومفيد لعنصر التراث الثقافي غير المادي (يشير إلى مجال أو مجالات التراث الثقافي غير المادي الذي ينتمي إليه/إليها)',type:'text',placeholder:'مثال: رقصة تراثية شعبية', example:'يشير إلى مجال أو مجالات التراث الثقافي غير المادي الذي ينتمي إليه/إليها'},
+  {id:'q_1_3',label:'الجماعة (أو الجماعات) المعنية',type:'text',placeholder:'مثال: سكان منطقة عسير', example:'مثال: سكان منطقة عسير'},
+  {id:'q_1_4',label:'1.4-	الموقع الطبيعي لعنصر التراث الثقافي غير المادي، ونطاق ممارسته ووتيرتها2 (الموقع الجغرافي للعنصر)',type:'text',placeholder:'مثال: جنوب السعودية – منطقة عسير', example:'مثال: جنوب السعودية – منطقة عسير'},
+  {id:'q_1_5',label:'1.5-	وصف مختصر لعنصر التراث الثقافي غير المادي ',type:'textarea',placeholder:'مثال: رقصة شعبية تؤدى في المناسبات', example:'مثال: رقصة شعبية تؤدى في المناسبات'},
+  {
+  id: "q_1_6",
+  label: "1.6	في اي مجال او مجلات من التراث الثقافي غير المادي يندرج العنصر؟",
+  type: "checkbox",
+  options: [
+    "الفنون الأدائية",
+    "التقاليد الشفهية",
+    "الطقوس والاحتفالات",
+    "المعارف المرتبطة بالطبيعة",
+    "الحرف التقليدية"
+  ]
 },
+{id:'q_1_7',label:'1.7	ما هي الوظائف والمعاني الاجتماعية والثقافية التي يقدمها العنصر لجماعته؟',type:'textarea',placeholder:'مثال: تعزيز الانتماء الاجتماعي، الاحتفال بالمناسبات', example:'مثال: تعزيز الانتماء الاجتماعي، الاحتفال بالمناسبات'},
 
-  {id:'q_3_2',label:'3.2 الجهة/الجهات المختصة',type:'text'},
-  {id:'q_3_3',label:'3.3 حالة العنصر الآن',type:'select',options:['مازال محافظًا عليه','بحاجة لصون','يتلاشى']},
-  {id:'q_3_4',label:'3.4 - 3.6 التهديدات',type:'textarea'},
-  {id:'q_3_7',label:'3.7 قابلية استدامة العناصر المرتبطة',type:'text'},
-  {id:'q_3_8',label:'3.8 تدابير الصون',type:'textarea'},
-
-  {id:'q_4_1',label:'4.1 موافقة الجماعة على توفير المعلومات',type:'text'},
-  {id:'q_4_2',label:'4.2 قيود على انتفاع البيانات',type:'text'},
-  {id:'q_4_3',label:'4.3 الأشخاص المخبرون (الاسم، المكانة، الانتماء)',type:'textarea',value:`الاسم:
+  {id:'q_2_1',label:'1.2-	الممارسون/المؤدون المعنيون بشكل مباشر بأداء عنصر التراث الثقافي غير المادي وممارسته (الاسم/العمر/الجنس/عنوان التواصل)',type:'textarea',value:
+`الاسم:
 العمر:
 الجنس:
-التواصل:`},
-  {id:'q_4_4',label:'4.4 تواريخ جمع المعلومات',type:'text'},
+التواصل:`, example:'مثال:\nالاسم: محمد\nالعمر: 35\nالجنس: ذكر\nالتواصل: 0500000000'},
+  {id:'q_2_2',label:'2.2-	مشاركون آخرون معنيون بالعنصر ولكن بطريقة لا ترتقي إلى ممارسته وأدائة وإنما يساهمون في إدامة ممارسته أو يسهلون عملية ممارسته ونقلها (مثل الذين يُحَضِّرون مكان أو مسرح الأداء أو الأزياء أو الذين يقومون بمهام التدريب أو الإشراف أو الرعاية)',type:'textarea',value:
+`الاسم:
+العمر:
+الجنس:
+التواصل:`, example:'مثال:\nالاسم: فاطمة\nالعمر: 28\nالجنس: أنثى\nالتواصل: 0500000001'},
+  {id:'q_2_3',label:'2.3-	اللغة/اللغات المستخدمة في أداء أو ممارسة العنصر',type:'text',value:'اللغة العربية', example:'مثال: العربية'},
+  {id:'q_2_4',label:'2.4-	العناصر المادية المرتبطة بممارسة العنصر ونقله (نحو الأدوات/المعدات، الأزياء، الأماكن، والأدوات الطقوسية (إن وجدت)',type:'textarea', example:'مثال: الدفوف، الزي التقليدي'},
+  {id:'q_2_5',label:'2.5-	عناصر غير مادية أخرى (إن وجدت) مرتبطة بممارسة العنصر المعني ونقله ',type:'textarea', example:'مثال: الأهازيج، الأغاني الشعبية'},
+  {id:'q_2_6',label:'2.6-	الممارسات العرفية (إن وجدت) التي تحكم الانتفاع بالعنصر أو أي جانب من جوانبه',type:'textarea', example:'مثال: الاحتفال بالأعياد الوطنية والعائلية'},
+  {id:'q_2_7',label:'2.7	طرائق النقل إلى الأعضاء الآخرين في الجماعة او كيف يتم نقل المعارف والمهارات الخاصة بالعنصر في العصر الحالي؟',type:'text', example:'مثال: التعلم الشفهي، التعليم المدرسي'},
+  {id:'q_2_8',label:'2.8	المنظمات المعنية (منظمات المجتمعات المحلية والمنظمات غير الحكومية أو غيرها، إن وجدت)',type:'textarea', example:'مثال: جمعية التراث الشعبي، مكتب الثقافة بالمنطقة'},
 
-  {id:'q_5_1',label:'5.1 الأدبيات',type:'textarea'},
-  {id:'q_5_2',label:'5.2 مواد سمعية وبصرية',type:'text'},
-  {id:'q_5_3',label:'5.3 مواد وثائقية وأدوات في المتاحف',type:'text'}
+{id: 'q_3_1',
+ label: '3-1 الجهود السابقة والحالية لصون العنصر : يرجى اختيار واحد أو اكثر من الاختيارات الآتيه لتحدسد إجراءات الصون التي تم اتخاذها سابقاَ ويتم اتخاذها حالياَمن قبل الجماعات أو الافراد المعنية بالعنصر',
+ type: 'checkbox',
+ options: [
+   'النقل، لا سيما من خلال التعليم الرسمي وغير الرسمي',
+   'التوثيق والبحث',
+   'الحفظ والحماية',
+   'الترويج والتعزيز',
+   'لا توجد جهود صون'
+ ],
+ example: 'اختر كل الجهود المنفذة مسبقًا أو الحالية'},
+  {id:'q_3_2',label:'3.2 الجهة (الجهات) المختصة القائمة على عملية الصون',type:'text', example:'مثال: وزارة الثقافة، جمعية التراث'},
+  {id: 'q_3_3',
+ label: '3.3 حالة العنصر في الوقت الحالي:',
+ type: 'checkbox',
+ options: [
+   'مازال محافظًا عليه',
+   'بحاجة لصون',
+   'يتلاشى'
+ ],
+ example: ''},
+
+  {id:'q_3_4',label:'3.4 التهديدات (إن وجدت) التي تحدد بالأداء المتواصل للعنصر في إطارالجماعة/الجماعات المعنية ',type:'textarea', example:'مثال: قلّة الممارسين، ضعف الدعم المالي'},
+  {id:'q_3_5',label:'3.5 التهديدات (إن وجدت) التي تحدق بانتقال العنصر في إطار الجماعة/الجماعات المعنية',type:'textarea', example:'مثال: قلّة الممارسين، ضعف الدعم المالي'},
+  {id:'q_3_6',label:'3.6 التهديدات التي تحدق باستدامة الانتفاع بالعناصر المادية والموارد (إن وجدت) المرتبطة بعنصر التراث الثقافي غير المادي. ',type:'textarea', example:'مثال: قلّة الممارسين، ضعف الدعم المالي'},
+  
+  {id:'q_3_7',label:'3.7 قابلية استدامة عناصر التراث غير المادي الأخرى (إن وجت) المرتبطة بالعنصر ',type:'text', example:'مثال: عالية، بوجود برامج تعليمية'},
+  {id:'q_3_8',label:'3.8 تدابير الصون المتخذة في المكان (إن وجدت) أو غيرها لمعالجة أي من هذه التهديدات، وتشجيع ممارسة العنصر ونقله في المستقبل ',type:'textarea', example:'مثال: إنشاء ورش تعليمية، تسجيل فيديوهات للممارسات'},
+
+  {id:'q_4_1',label:'4.1 موافقة الجماعة/الجماعات المعنية على توفير المعلومات ومشاركتهم في جمعها',type:'text', example:'مثال: نعم، تم الحصول على الموافقة'},
+  {id:'q_4_2',label:'4.2 القيود (إن وجدت) المفروضة على مسالة الانتفاع بالبيانات واستعمالها',type:'text', example:'مثال: الاستخدام لأغراض البحث فقط'},
+  {id:'q_4_3',label:'4.3 تواريخ جمع المعلومات وأمكنتها',type:'textarea',value:`الاسم:
+العمر:
+الجنس:
+التواصل:`, example:'مثال:\nالاسم: علي\nالمكانة: شيخ الحي\nالانتماء: المجتمع المحلي'},
+  {id:'q_4_4',label:'4.4 الأشخاص المخبرون (الرواة/المزودون بالمعلومات) (أسماؤهم، ومكانتهم، وانتماؤهم)',type:'text', example:'مثال: 01/10/2025 - 05/10/2025'},
+
+  {id:'q_5_1',label:'5.1 الأدبيات: كتب، مقالات... وغيرها',type:'textarea', example:'مثال: كتب ودراسات عن التراث الشعبي'},
+  {id:'q_5_2',label:'5.2 المواد السمعية والبصرية، تسجيلات إلخ في المحفوظات والمتاحف والمجموعات الخاصة (إن وجدت)',type:'text', example:'مثال: تسجيلات صوتية، فيديوهات للرقصات'},
+  {id:'q_5_3',label:'5.3 مواد وثائقية، وأدوات في دور المحفوظات والمتاحف والمجموعات الخاصة (إن وجدت)',type:'text', example:'مثال: أدوات موسيقية، صور أرشيفية'}
 ];
 
 const totalSteps = questions.length;
@@ -465,20 +500,48 @@ questions.forEach((q, idx)=>{
   step.appendChild(title);
 
   let input;
-  if(q.type==='textarea'){
+if(q.type === 'textarea'){
     input = document.createElement('textarea');
     input.rows = 6;
-  } else if(q.type==='select'){
+} else if(q.type === 'select'){
     input = document.createElement('select');
-    q.options.forEach(opt=>{const o=document.createElement('option');o.value=opt;o.textContent=opt;input.appendChild(o)});
-  } else {
+    q.options.forEach(opt => {
+        const o = document.createElement('option');
+        o.value = opt;
+        o.textContent = opt;
+        input.appendChild(o);
+    });
+} else if(q.type === 'checkbox'){    // ← دعم checkbox
+    const box = document.createElement('div');
+    box.className = 'options-box';
+
+    q.options.forEach(opt => {
+        const lbl = document.createElement('label');
+        lbl.innerHTML = `<input type="checkbox" name="${q.id}[]" value="${opt}"> ${opt}`;
+        box.appendChild(lbl);
+    });
+
+    input = box;   // استخدم div كـ input
+} else {
     input = document.createElement('input');
     input.type = 'text';
-  }
-  input.id = q.id;
-  input.setAttribute('aria-label', q.label);
-  if(q.value) input.value = q.value;
-  step.appendChild(input);
+}
+
+// إعداد الخصائص العامة لكل نوع
+input.id = q.id;
+input.setAttribute('aria-label', q.label);
+if(q.value && q.type !== 'checkbox') input.value = q.value; // قيمة checkbox لا تُضاف هنا
+step.appendChild(input);
+
+// إضافة مثال إذا وُجد
+if(q.example){
+    const ex = document.createElement('div');
+    ex.className = 'small example';
+    ex.textContent = q.example;
+    step.appendChild(ex);
+}
+
+
 
   // helper text
   const helper = document.createElement('div');
@@ -504,16 +567,30 @@ showStep(current);
 
 // Navigation
 document.getElementById('nextBtn').addEventListener('click', ()=>{
-  // simple validation: required non-empty for current
   const curQ = questions[current];
-  const input = document.getElementById(curQ.id);
-  const val = (input.value||'').trim();
-  if(!val){
-    // allow empty for non-critical? we'll require at least something
-    alert('الرجاء إدخال إجابة للسؤال قبل المتابعة.');
-    input.focus();
-    return;
+  let val = '';
+
+  if(curQ.type === 'checkbox'){
+      // اجمع القيم المحددة في المربع
+      const checked = Array.from(document.querySelectorAll(`#${curQ.id} input[type=checkbox]:checked`))
+                           .map(cb => cb.value);
+      if(checked.length === 0){
+          alert('الرجاء اختيار خيار واحد على الأقل قبل المتابعة.');
+          return;
+      }
+      val = checked.join(', '); // اجمعها كنص مفصول بفواصل
+  } else {
+      const input = document.getElementById(curQ.id);
+      val = (input.value || '').trim();
+      if(!val){
+          alert('الرجاء إدخال إجابة للسؤال قبل المتابعة.');
+          input.focus();
+          return;
+      }
   }
+
+  // حفظ الإجابة مؤقتًا في العنصر نفسه (اختياري)
+  curQ._answer = val;
 
   if(current < totalSteps-1){
     current++;
@@ -527,6 +604,7 @@ document.getElementById('nextBtn').addEventListener('click', ()=>{
     window.scrollTo(0,0);
   }
 });
+
 
 document.getElementById('prevBtn').addEventListener('click', ()=>{
   if(current>0){current--;showStep(current);window.scrollTo(0,0)}
@@ -545,16 +623,30 @@ function populateResults(){
   const map = {
     'q_1_1':'r_1_1','q_1_2':'r_1_2','q_1_3':'r_1_3','q_1_4':'r_1_4','q_1_5':'r_1_5','q_1_6':'r_1_6','q_1_7':'r_1_7',
     'q_2_1':'r_2_1','q_2_2':'r_2_2','q_2_3':'r_2_3','q_2_4':'r_2_4','q_2_5':'r_2_5','q_2_6':'r_2_6','q_2_7':'r_2_7','q_2_8':'r_2_8',
-    'q_3_1':'r_3_1','q_3_2':'r_3_2','q_3_3':'r_3_3','q_3_4':'r_3_4','q_3_7':'r_3_7','q_3_8':'r_3_8',
+    'q_3_1':'r_3_1','q_3_2':'r_3_2','q_3_3':'r_3_3','q_3_4':'r_3_4','q_3_5':'r_3_5','q_3_6':'r_3_6','q_3_7':'r_3_7','q_3_8':'r_3_8',
     'q_4_1':'r_4_1','q_4_2':'r_4_2','q_4_3':'r_4_3','q_4_4':'r_4_4',
     'q_5_1':'r_5_1','q_5_2':'r_5_2','q_5_3':'r_5_3'
   };
   for(const q of questions){
-  const val = (document.getElementById(q.id).value || '')
-                .replace(/\n/g, '<br>');
+  let displayVal = '';
+
+  if(q.type === 'checkbox'){
+      // عرض جميع الخيارات، وضع ✓ أمام المختارة فقط
+      displayVal = q.options.map(opt => {
+          const isChecked = Array.from(document.querySelectorAll(`#${q.id} input[type=checkbox]`))
+                                 .some(cb => cb.value === opt && cb.checked);
+          return isChecked ? `✔ ${opt}` : opt;
+      }).join('<br>');
+  } else {
+      displayVal = (document.getElementById(q.id).value || '');
+  }
+
+  displayVal = displayVal.replace(/\n/g,'<br>');
+
   const rid = map[q.id];
-  if(rid) document.getElementById(rid).innerHTML = val;
+  if(rid) document.getElementById(rid).innerHTML = displayVal;
 }
+
 
 
   // Prepare PDF pages (5 pages) by splitting sections logically
@@ -601,16 +693,29 @@ document.getElementById('downloadPdf').addEventListener('click', ()=>{
   pdfContainer.style.display = 'block';
 
 // نسخ العنصر
+// نسخ العنصر
 const clone = pdfContainer.cloneNode(true);
 clone.style.width = '210mm';
 clone.style.minHeight = '297mm';
 clone.style.boxSizing = 'border-box';
 
-// **نسخ القيم التفاعلية إلى نصوص ثابتة**
+// ضبط الخلايا لتكون RTL
+clone.querySelectorAll('td, th').forEach(cell => {
+  cell.style.textAlign = 'right';  // محاذاة النص لليمين
+  cell.style.direction = 'rtl';    // اتجاه الكتابة من اليمين لليسار
+});
+
+// نسخ القيم التفاعلية إلى نصوص ثابتة
 clone.querySelectorAll('input, textarea, select').forEach(el => {
   const value = el.value;
   const span = document.createElement('span');
   span.textContent = value;
+
+  span.style.display = 'block';
+  span.style.textAlign = 'right';
+  span.style.direction = 'rtl';
+  span.style.whiteSpace = 'pre-wrap';
+
   el.parentNode.replaceChild(span, el);
 });
 
@@ -659,4 +764,3 @@ setTimeout(()=>{ const firstInput=document.getElementById(questions[0].id); if(f
     <script>anchors.add();</script>
   </body>
 </html>
-
