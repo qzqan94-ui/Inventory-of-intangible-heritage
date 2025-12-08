@@ -119,7 +119,7 @@ body, html {
 
 
     :root{--bg:#f6f7fb;--card:#fff;--accent:#e8eefc;--border:#000}
-    body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;background:var(--bg);padding:18px;margin:0}
+    body{font-family: "Segoe UI", Tahoma, Arial, "Noto Naskh Arabic", sans-serif;background:#fff(--bg);padding:18px;margin:0}
     .container {
     max-width: 950px;
     width: 100%;
