@@ -215,9 +215,9 @@ body .container #resultsWrap #resultsArea > table {
 }
 .controls {
     position: fixed;
-    bottom: 5px;
-    left: 550px;
-    width: 10%;
+    bottom: 7px;
+    left: 528px;
+    width: 17%;
     background: #fff;          /* خلفية بيضاء حتى لا يختفي */
     padding: 12px 15px;
     display: flex;
