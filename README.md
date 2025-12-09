@@ -196,6 +196,23 @@ body .container #resultsWrap #resultsArea > table {
   font-style: italic;
   margin-bottom: 6px;
 }
+.options-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.options-box label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 10px;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    cursor: pointer;
+}
 
 
 </style>
