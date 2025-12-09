@@ -196,40 +196,6 @@ body .container #resultsWrap #resultsArea > table {
   font-style: italic;
   margin-bottom: 6px;
 }
-.options-box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 8px;
-}
-
-.options-box label {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding: 6px 10px;
-    background: #f5f5f5;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    cursor: pointer;
-}
-.controls {
-    position: fixed;
-    bottom: 7px;
-    left: 528px;
-    width: 17%;
-    background: #fff;          /* خلفية بيضاء حتى لا يختفي */
-    padding: 12px 15px;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 -2px 10px rgba(0,0,0,0.1); /* ظل خفيف جميل */
-    z-index: 9999;             /* فوق كل العناصر */
-}
-
-.controls button {
-    padding: 12px 20px;
-    font-size: 16px;
-}
 
 
 </style>
@@ -262,7 +228,6 @@ body .container #resultsWrap #resultsArea > table {
 
     <!-- Steps will be injected here -->
     <div id="stepsContainer"></div>
-
 
     <div class="controls">
       <div class="left">
@@ -516,7 +481,7 @@ const questions = [
 
   {id:'q_5_1',label:'5.1 الأدبيات: كتب، مقالات... وغيرها',type:'textarea', example:'مثال: كتب ودراسات عن التراث الشعبي'},
   {id:'q_5_2',label:'5.2 المواد السمعية والبصرية، تسجيلات إلخ في المحفوظات والمتاحف والمجموعات الخاصة (إن وجدت)',type:'text', example:'مثال: تسجيلات صوتية، فيديوهات للرقصات'},
-  {id:'q_5_3',label:'5.3 مواد وثائقية، وأدوات في دور المحفوظات والمتاحف والمجموعات الخاصة (إن وجدت)',type:'text',  example:'مثال: أدوات موسيقية، صور أرشيفية'}
+  {id:'q_5_3',label:'5.3 مواد وثائقية، وأدوات في دور المحفوظات والمتاحف والمجموعات الخاصة (إن وجدت)',type:'text', example:'مثال: أدوات موسيقية، صور أرشيفية'}
 ];
 
 const totalSteps = questions.length;
